@@ -69,6 +69,10 @@ button:hover {
   align-items: center;
   text-align: center;
 }
+.card h1{
+  display: flex;
+  flex-direction: column;
+}
 .game h3 {
   font-size: 30px;
 }

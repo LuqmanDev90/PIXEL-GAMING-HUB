@@ -73,7 +73,6 @@ button:hover {
   font-size: 30px;
 }
 .game {
-  margin-bottom: 25px;
   background-color: var(--surface);
   padding: 0 40px 30px 40px;
   box-shadow: 5px 2px 1.2px 1px black;

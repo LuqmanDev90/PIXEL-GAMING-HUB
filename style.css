@@ -54,7 +54,7 @@ nav {
 button {
   padding: 15px;
   background-color: var(--accent);
-  border: 2px;
+  border: none;
 }
 button:hover {
   background-color: gray;
@@ -63,7 +63,8 @@ button:hover {
 }
 .cards {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;

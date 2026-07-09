@@ -81,6 +81,7 @@ button:hover {
   padding: 0 40px 30px 40px;
   box-shadow: 5px 2px 1.2px 1px black;
   border-radius: 20px;
+  margin-right: 20px;
 }
 .categories {
   display: flex;

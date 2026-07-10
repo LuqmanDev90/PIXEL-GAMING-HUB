@@ -126,11 +126,17 @@ button:hover {
   color: var(--accent);
   font-size: 3rem;
 }
-.newsletter{
+.newsletter {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 30px;
+}
+.newsletter input {
+  width: 100%;
+  padding-bottom: 20px;
+}
+ttom: 20px;
 }

@@ -99,3 +99,30 @@ button:hover {
   border-radius: 15px;
   margin-right: 20px;
 }
+.best-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+  background-color: var(--surface);
+  margin-top: 40px;
+}
+
+.deal-info {
+  flex: 1; /* barabar jagah lega */
+}
+
+.deal-price {
+  flex: 1;
+  background-color: var(--bg);
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid var(--accent);
+  text-align: center;
+}
+
+.deal-price h2 {
+  color: var(--accent);
+  font-size: 3rem;
+}

@@ -13,6 +13,7 @@ body {
   background-color: var(--bg);
   color: var(--text);
   max-width: 100%;
+  overflow-x: hidden;
 }
 nav {
   display: flex;
@@ -24,8 +25,9 @@ nav {
   height: 5rem;
   top: 0;
   z-index: 10;
+  padding: 0 30px;
 }
-.logo {
+.nav-logo {
   font-size: 25px;
 }
 .nav-links {
@@ -58,6 +60,7 @@ button {
   padding: 15px;
   background-color: var(--accent);
   border: none;
+  border-radius: 20px;
 }
 button:hover {
   background-color: gray;
@@ -136,8 +139,45 @@ button:hover {
   align-items: center;
   text-align: center;
   margin-top: 30px;
+  gap: 20px;
 }
 .newsletter input {
-  width: 1000px;
-  padding-bottom: 20px;
+  padding: 0 80px 20px 80px;
+  border-radius: 25px;
+}
+.footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: var(--surface);
+  border-radius: 20px;
+  padding: 40px;
+}
+.footer-logo {
+  font-size: 30px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.links a {
+  text-decoration: none;
+  color: var(--text);
+}
+.links h2 {
+  font-size: 40px;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-links a {
+  text-decoration: none;
+  color: var(--text);
+}
+.social-links h2 {
+  font-size: 40px;
 }

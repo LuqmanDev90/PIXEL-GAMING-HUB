@@ -4,7 +4,7 @@
   --accent: #f5a623;
   --text: #e8f0fe;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +12,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  max-width: 100%;     
+  max-width: 100%;
 }
 nav {
   display: flex;
@@ -138,6 +138,6 @@ button:hover {
   margin-top: 30px;
 }
 .newsletter input {
-  width: 2rem;
+  width: 10em;
   padding-bottom: 20px;
 }

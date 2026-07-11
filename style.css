@@ -12,7 +12,6 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  overflow: hidden;     /* horizontal scroll band */
   max-width: 100%;     
 }
 nav {
